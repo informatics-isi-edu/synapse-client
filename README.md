@@ -6,10 +6,19 @@ software applications (and their dependencies) via `pip`.
 ## Prerequisites
 
 An installation of Python3 is required. Python 3.7 is the recommended version. 
+
 Installers for Windows and MacOS can be found here:
 * [Windows 64-bit](https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe)
 * [MacOS-10.6 or greater (64/32bit)](https://www.python.org/ftp/python/3.7.5/python-3.7.5-macosx10.6.pkg) 
 * [MacOS-10.9 or greater (64bit)](https://www.python.org/ftp/python/3.7.5/python-3.7.5-macosx10.9.pkg) 
+
+
+An installation of the `Git` source control management software is also 
+required. The latest version is recommended. 
+
+Installers for Windows and MacOS can be found here:
+* [Windows](https://git-scm.com/download/win)
+* [MacOS](https://git-scm.com/download/mac)
 
 ## Usage
 
@@ -20,10 +29,18 @@ may already have Python 2 installed should use `pip3` instead.
 pip3 install --user git+https://github.com/informatics-isi-edu/synapse-client.git
 ```
 
+When updating an existing installation, it is recommended to pass the 
+`--upgrade` flag to `pip`:
+```sh
+pip3 install --upgrade --user git+https://github.com/informatics-isi-edu/synapse-client.git
+```
+
 ##### Virtual environment installation
 
 The software can be installed in a _virtual environment_ in order to keep it
-isolated from other Python3 applications that may already be installed.
+isolated from other Python3 applications that may already be installed. 
+Note: If installing into an existing virtual environment, it is 
+recommended to add the `--upgrade` flag to the `pip install` command. 
 
 1. Install `virtualenv`: 
     ```sh
