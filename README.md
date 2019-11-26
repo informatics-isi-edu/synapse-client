@@ -22,8 +22,8 @@ Installers for Windows and MacOS can be found here:
 
 ## Usage
 
-Installation can be performed using the `pip` command. For systems which 
-may already have Python 2 installed should use `pip3` instead.
+Installation can be performed using the `pip` command. For systems that 
+have both Python2 and Python3 installed, use `pip3` instead.
 
 ```sh
 pip3 install --user git+https://github.com/informatics-isi-edu/synapse-client.git
