@@ -39,7 +39,7 @@ setup(
         'tifffile',
         'pyopengl',
         'deriva@git+https://github.com/informatics-isi-edu/deriva-py.git',
-        'deriva-qt[PyQt5]==0.9.0',
+        'deriva-qt[PyQt5]@git+https://github.com/informatics-isi-edu/deriva-qt.git',
         'volspy@git+https://github.com/informatics-isi-edu/volspy.git',
         'synspy@git+https://github.com/informatics-isi-edu/synspy.git@ridbased',
         'synspy-launcher@git+https://github.com/informatics-isi-edu/synspy.git@ridbased#subdirectory=launcher'
