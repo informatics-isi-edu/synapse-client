@@ -20,14 +20,12 @@ required. The latest version is recommended.
     * [Windows](https://git-scm.com/download/win)
     * [MacOS](https://git-scm.com/download/mac)
 
-## Usage
+## Installation
+The software can be installed into the system Python directory (for all users),
+the current user's home directory, or into a _virtual environment_, in order to 
+keep it isolated from other applications. Unless you have a clear understanding of
+the differences between each type of installation, choose only one.
 
-Installation can be performed using the `pip` command. For systems that 
-have both Python2 and Python3 installed, use `pip3` instead.
-
-```sh
-pip3 install --upgrade --user git+https://github.com/informatics-isi-edu/synapse-client.git
-```
 
 ##### Virtual environment installation
 
@@ -56,6 +54,17 @@ isolated from other Python3 applications that may already be installed.
     ```
     pip3 install --upgrade git+https://github.com/informatics-isi-edu/synapse-client.git
     ```
+
+##### User/system environment installation
+For systems that have both Python2 and Python3 installed, use `pip3` instead. 
+It is recommended to use the `--user` flag unless you are understand the 
+ramifications of (and are comfortable with) writing to the system Python 
+installation. To install to the system Python location (i.e., for all users),
+omit the `--user` flag.
+
+```sh
+pip3 install --upgrade --user git+https://github.com/informatics-isi-edu/synapse-client.git
+```
 
 ## Support
 Issues can be reported via GitHub [here](https://github.com/informatics-isi-edu/synapse-client/issues). 
