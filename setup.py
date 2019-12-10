@@ -41,9 +41,9 @@ setup(
         'deriva@git+https://github.com/informatics-isi-edu/deriva-py.git',
         'deriva-qt[PyQt5]@git+https://github.com/informatics-isi-edu/deriva-qt.git',
         'volspy@git+https://github.com/informatics-isi-edu/volspy.git',
-        'fishspy@git+https://github.com/informatics-isi-edu/fishspy.git@ridbased',
-        'synspy@git+https://github.com/informatics-isi-edu/synspy.git@ridbased',
-        'synspy-launcher@git+https://github.com/informatics-isi-edu/synspy.git@ridbased#subdirectory=launcher'
+        'fishspy@git+https://github.com/informatics-isi-edu/fishspy.git',
+        'synspy@git+https://github.com/informatics-isi-edu/synspy.git',
+        'synspy-launcher@git+https://github.com/informatics-isi-edu/synspy.git#subdirectory=launcher'
     ],
     license='GNU GPL 3.0',
     classifiers=[
