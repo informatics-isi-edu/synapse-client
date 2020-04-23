@@ -36,9 +36,15 @@ isolated from other Python3 applications that may already be installed.
     ```sh
     pip3 install virtualenv
     ```
+   NOTE: If for any reason you have problems installing the `virtualenv` module, 
+   you can use the alternate built-in `venv` module to create a virtual environment instead.
 2. Create a new virtual environment in (for example) `synapse-client`:
     ```
     virtualenv synapse-client
+    ```
+    Or, if using `venv`:
+    ```
+    python3 -m venv synapse-client
     ```
 3. Activate the new virtual environment:
     * Windows:
