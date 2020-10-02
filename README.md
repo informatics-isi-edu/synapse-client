@@ -12,6 +12,9 @@ software applications (and their dependencies) via `pip`.
     * [MacOS-10.6 or greater (64/32bit)](https://www.python.org/ftp/python/3.7.5/python-3.7.5-macosx10.6.pkg) 
     * [MacOS-10.9 or greater (64bit)](https://www.python.org/ftp/python/3.7.5/python-3.7.5-macosx10.9.pkg) 
 
+    ##### *IMPORTANT NOTE*: 
+
+    Ensure that you select the option to add Python to the PATH environment variable during the installation.
 
 2. An installation of the `Git` source control management software is also 
 required. The latest version is recommended. 
@@ -25,10 +28,6 @@ The software can be installed into the system Python directory (for all users),
 the current user's home directory, or into a _virtual environment_, in order to 
 keep it isolated from other applications. Unless you have a clear understanding of
 the differences between each type of installation, choose only one.
-
-##### *IMPORTANT NOTE*: 
-
-Ensure that you select the option to add Python to PATH environment variable during the installation.
 
 ##### Virtual environment installation
 
