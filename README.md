@@ -8,7 +8,7 @@ software applications (and their dependencies) via `pip`.
 1. An installation of Python3 is required. Python 3.7 is the recommended version. 
 
     Installers for Windows and MacOS can be found here:
-    * [Windows 64-bit](https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe)
+    * [Windows 64-bit](https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe)
     * [MacOS-10.6 or greater (64/32bit)](https://www.python.org/ftp/python/3.7.5/python-3.7.5-macosx10.6.pkg) 
     * [MacOS-10.9 or greater (64bit)](https://www.python.org/ftp/python/3.7.5/python-3.7.5-macosx10.9.pkg) 
 
@@ -26,6 +26,9 @@ the current user's home directory, or into a _virtual environment_, in order to
 keep it isolated from other applications. Unless you have a clear understanding of
 the differences between each type of installation, choose only one.
 
+##### *IMPORTANT NOTE*: 
+
+Ensure that you select the option to add Python to PATH environment variable during the installation.
 
 ##### Virtual environment installation
 
@@ -62,6 +65,13 @@ isolated from other Python3 applications that may already be installed.
     ```
 
 ##### User/system environment installation
+
+##### *IMPORTANT NOTE*: 
+Do not use perform this installation method if you have already installed to a virtual environment.
+Use the virtual environment instead. Only use this installation method if you are familiar with Python and 
+fully understand the differences between Python system, user, and virtual environment installation types.
+
+###### Installation Procedure 
 For systems that have both Python2 and Python3 installed, use `pip3` instead. 
 It is recommended to use the `--user` flag unless you are understand the 
 ramifications of (and are comfortable with) writing to the system Python 

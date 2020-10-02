@@ -38,6 +38,8 @@ setup(
         'scipy',
         'tifffile',
         'pyopengl',
+        'PIL',
+        "h5py",
         'deriva@git+https://github.com/informatics-isi-edu/deriva-py.git',
         'deriva-qt[PyQt5]@git+https://github.com/informatics-isi-edu/deriva-qt.git',
         'volspy@git+https://github.com/informatics-isi-edu/volspy.git',
