@@ -29,7 +29,7 @@ the current user's home directory, or into a _virtual environment_, in order to
 keep it isolated from other applications. Unless you have a clear understanding of
 the differences between each type of installation, choose only one.
 
-##### Virtual environment installation
+### Virtual environment installation
 
 The software can be installed in a _virtual environment_ in order to keep it
 isolated from other Python3 applications that may already be installed. 
@@ -63,7 +63,7 @@ isolated from other Python3 applications that may already be installed.
     pip3 install --upgrade git+https://github.com/informatics-isi-edu/synapse-client.git
     ```
 
-##### User/system environment installation
+### User/system environment installation
 
 ##### *IMPORTANT NOTE*: 
 Do not perform this installation method if you have already installed to a virtual environment. Use the virtual environment instead. 
